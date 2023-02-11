@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\stager">
+      <UniqueIdentifier>{53e901c7-a4a0-4f74-82b3-15f17fa6a798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\stager">
+      <UniqueIdentifier>{2d7b4bcb-4df2-42ad-8c75-dbc5bcb9b14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com">
+      <UniqueIdentifier>{c330bb8f-3abd-4825-952d-2696024d3441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com">
+      <UniqueIdentifier>{cbf65ce7-267c-4357-a1e2-813fa1a5e9dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stager\Common.h">
+      <Filter>Header Files\stager</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files\com</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskHandler.hpp">
+      <Filter>Header Files\com</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFactory.hpp">
+      <Filter>Header Files\com</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stager\stager_main.c">
+      <Filter>Source Files\stager</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskHandler.cpp">
+      <Filter>Source Files\com</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\com</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFactory.cpp">
+      <Filter>Source Files\com</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source.def">
+      <Filter>Source Files\com</Filter>
+    </None>
+  </ItemGroup>
+</Project>
